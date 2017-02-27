@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E22F99FB1E513EC60096B305 /* Killer-Font.otf in Resources */ = {isa = PBXBuildFile; fileRef = E22F99FA1E513EC60096B305 /* Killer-Font.otf */; };
+		E22F99FD1E515E230096B305 /* Result2_r_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E22F99FC1E515E230096B305 /* Result2_r_01.mp3 */; };
+		E23A355F1E55087900170BAE /* A-Tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E23A355E1E55087900170BAE /* A-Tone.mp3 */; };
+		E24F51FE1E50B07C00FEBD81 /* AppEntrySplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F51FD1E50B07C00FEBD81 /* AppEntrySplashVC.swift */; };
+		E24F52001E50B0A900FEBD81 /* SelectChampionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F51FF1E50B0A900FEBD81 /* SelectChampionVC.swift */; };
+		E25D149C1E527F0A00C69A0D /* Class34VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D149B1E527F0A00C69A0D /* Class34VC.swift */; };
+		E25D149E1E527F2700C69A0D /* Class56VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D149D1E527F2700C69A0D /* Class56VC.swift */; };
 		E2CDCF051E34797000B8E084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDCF041E34797000B8E084 /* AppDelegate.swift */; };
 		E2CDCF071E34797000B8E084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDCF061E34797000B8E084 /* ViewController.swift */; };
 		E2CDCF0A1E34797000B8E084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDCF081E34797000B8E084 /* Main.storyboard */; };
@@ -14,6 +21,15 @@
 		E2CDCF0F1E34797100B8E084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDCF0D1E34797100B8E084 /* LaunchScreen.storyboard */; };
 		E2CDCF1A1E34797100B8E084 /* MathWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDCF191E34797100B8E084 /* MathWarsTests.swift */; };
 		E2CDCF251E34797100B8E084 /* MathWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDCF241E34797100B8E084 /* MathWarsUITests.swift */; };
+		E2FD5E9D1E48CD7E00999167 /* The Battle Has Begun.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2FD5E8F1E48CD7E00999167 /* The Battle Has Begun.wav */; };
+		E2FD5EA01E48CD7E00999167 /* Let's Get It Started.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2FD5E921E48CD7E00999167 /* Let's Get It Started.wav */; };
+		E2FD5EA51E48CD7E00999167 /* Let's Keep It Up.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2FD5E971E48CD7E00999167 /* Let's Keep It Up.wav */; };
+		E2FD5EA61E48CD7E00999167 /* Pick Up The Pace.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2FD5E981E48CD7E00999167 /* Pick Up The Pace.wav */; };
+		E2FD5EA91E48CD7E00999167 /* Who Will Emerge Victorious.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2FD5E9B1E48CD7E00999167 /* Who Will Emerge Victorious.wav */; };
+		E2FD5EAD1E48CD9C00999167 /* Time's Over.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2FD5EAC1E48CD9C00999167 /* Time's Over.wav */; };
+		E2FD5EC31E48CDD200999167 /* Go.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2FD5EC21E48CDD200999167 /* Go.wav */; };
+		E2FD5ED01E48CDFF00999167 /* Result2_r.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2FD5EC71E48CDFF00999167 /* Result2_r.wav */; };
+		E2FD5F141E49309300999167 /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2FD5F131E49309300999167 /* GameOver.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E22F99FA1E513EC60096B305 /* Killer-Font.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Killer-Font.otf"; sourceTree = "<group>"; };
+		E22F99FC1E515E230096B305 /* Result2_r_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Result2_r_01.mp3; sourceTree = "<group>"; };
+		E23A355E1E55087900170BAE /* A-Tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A-Tone.mp3"; sourceTree = "<group>"; };
+		E24F51FD1E50B07C00FEBD81 /* AppEntrySplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEntrySplashVC.swift; sourceTree = "<group>"; };
+		E24F51FF1E50B0A900FEBD81 /* SelectChampionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectChampionVC.swift; sourceTree = "<group>"; };
+		E25D149B1E527F0A00C69A0D /* Class34VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class34VC.swift; sourceTree = "<group>"; };
+		E25D149D1E527F2700C69A0D /* Class56VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class56VC.swift; sourceTree = "<group>"; };
 		E2CDCF011E34797000B8E084 /* MathWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CDCF041E34797000B8E084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2CDCF061E34797000B8E084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,15 @@
 		E2CDCF201E34797100B8E084 /* MathWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CDCF241E34797100B8E084 /* MathWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathWarsUITests.swift; sourceTree = "<group>"; };
 		E2CDCF261E34797100B8E084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FD5E8F1E48CD7E00999167 /* The Battle Has Begun.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "The Battle Has Begun.wav"; sourceTree = "<group>"; };
+		E2FD5E921E48CD7E00999167 /* Let's Get It Started.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Let's Get It Started.wav"; sourceTree = "<group>"; };
+		E2FD5E971E48CD7E00999167 /* Let's Keep It Up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Let's Keep It Up.wav"; sourceTree = "<group>"; };
+		E2FD5E981E48CD7E00999167 /* Pick Up The Pace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Pick Up The Pace.wav"; sourceTree = "<group>"; };
+		E2FD5E9B1E48CD7E00999167 /* Who Will Emerge Victorious.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Who Will Emerge Victorious.wav"; sourceTree = "<group>"; };
+		E2FD5EAC1E48CD9C00999167 /* Time's Over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Time's Over.wav"; sourceTree = "<group>"; };
+		E2FD5EC21E48CDD200999167 /* Go.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Go.wav; sourceTree = "<group>"; };
+		E2FD5EC71E48CDFF00999167 /* Result2_r.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Result2_r.wav; sourceTree = "<group>"; };
+		E2FD5F131E49309300999167 /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +129,13 @@
 		E2CDCF031E34797000B8E084 /* MathWars */ = {
 			isa = PBXGroup;
 			children = (
+				E2FD5E7C1E48CCBC00999167 /* Support Files */,
 				E2CDCF041E34797000B8E084 /* AppDelegate.swift */,
+				E24F51FD1E50B07C00FEBD81 /* AppEntrySplashVC.swift */,
+				E24F51FF1E50B0A900FEBD81 /* SelectChampionVC.swift */,
 				E2CDCF061E34797000B8E084 /* ViewController.swift */,
+				E25D149B1E527F0A00C69A0D /* Class34VC.swift */,
+				E25D149D1E527F2700C69A0D /* Class56VC.swift */,
 				E2CDCF081E34797000B8E084 /* Main.storyboard */,
 				E2CDCF0B1E34797000B8E084 /* Assets.xcassets */,
 				E2CDCF0D1E34797100B8E084 /* LaunchScreen.storyboard */,
@@ -123,6 +160,73 @@
 				E2CDCF261E34797100B8E084 /* Info.plist */,
 			);
 			path = MathWarsUITests;
+			sourceTree = "<group>";
+		};
+		E2FD5E7C1E48CCBC00999167 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD5E7E1E48CCD400999167 /* Fonts */,
+				E2FD5E7D1E48CCCD00999167 /* Audio */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		E2FD5E7D1E48CCCD00999167 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD5F121E4926CD00999167 /* Start / Stop */,
+				E2FD5EAB1E48CD8B00999167 /* Timer */,
+				E2FD5E8E1E48CD2500999167 /* Time Makers */,
+				E2FD5E8D1E48CD0300999167 /* Player Selection */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		E2FD5E7E1E48CCD400999167 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E22F99FA1E513EC60096B305 /* Killer-Font.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		E2FD5E8D1E48CD0300999167 /* Player Selection */ = {
+			isa = PBXGroup;
+			children = (
+				E22F99FC1E515E230096B305 /* Result2_r_01.mp3 */,
+				E2FD5EC71E48CDFF00999167 /* Result2_r.wav */,
+			);
+			name = "Player Selection";
+			sourceTree = "<group>";
+		};
+		E2FD5E8E1E48CD2500999167 /* Time Makers */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD5E971E48CD7E00999167 /* Let's Keep It Up.wav */,
+				E2FD5E981E48CD7E00999167 /* Pick Up The Pace.wav */,
+				E2FD5E9B1E48CD7E00999167 /* Who Will Emerge Victorious.wav */,
+			);
+			name = "Time Makers";
+			sourceTree = "<group>";
+		};
+		E2FD5EAB1E48CD8B00999167 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				E23A355E1E55087900170BAE /* A-Tone.mp3 */,
+				E2FD5EAC1E48CD9C00999167 /* Time's Over.wav */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		E2FD5F121E4926CD00999167 /* Start / Stop */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD5F131E49309300999167 /* GameOver.wav */,
+				E2FD5E921E48CD7E00999167 /* Let's Get It Started.wav */,
+				E2FD5EC21E48CDD200999167 /* Go.wav */,
+				E2FD5E8F1E48CD7E00999167 /* The Battle Has Begun.wav */,
+			);
+			name = "Start / Stop";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +340,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CDCF0F1E34797100B8E084 /* LaunchScreen.storyboard in Resources */,
+				E22F99FB1E513EC60096B305 /* Killer-Font.otf in Resources */,
+				E22F99FD1E515E230096B305 /* Result2_r_01.mp3 in Resources */,
 				E2CDCF0C1E34797000B8E084 /* Assets.xcassets in Resources */,
+				E2FD5F141E49309300999167 /* GameOver.wav in Resources */,
+				E2FD5EA61E48CD7E00999167 /* Pick Up The Pace.wav in Resources */,
+				E2FD5ED01E48CDFF00999167 /* Result2_r.wav in Resources */,
+				E2FD5EA91E48CD7E00999167 /* Who Will Emerge Victorious.wav in Resources */,
+				E2FD5EC31E48CDD200999167 /* Go.wav in Resources */,
+				E2FD5EAD1E48CD9C00999167 /* Time's Over.wav in Resources */,
+				E23A355F1E55087900170BAE /* A-Tone.mp3 in Resources */,
+				E2FD5EA51E48CD7E00999167 /* Let's Keep It Up.wav in Resources */,
+				E2FD5E9D1E48CD7E00999167 /* The Battle Has Begun.wav in Resources */,
+				E2FD5EA01E48CD7E00999167 /* Let's Get It Started.wav in Resources */,
 				E2CDCF0A1E34797000B8E084 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +378,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24F51FE1E50B07C00FEBD81 /* AppEntrySplashVC.swift in Sources */,
+				E24F52001E50B0A900FEBD81 /* SelectChampionVC.swift in Sources */,
+				E25D149E1E527F2700C69A0D /* Class56VC.swift in Sources */,
 				E2CDCF071E34797000B8E084 /* ViewController.swift in Sources */,
+				E25D149C1E527F0A00C69A0D /* Class34VC.swift in Sources */,
 				E2CDCF051E34797000B8E084 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5AKU27T6AT;
 				INFOPLIST_FILE = MathWars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imPlaying.MathWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5AKU27T6AT;
 				INFOPLIST_FILE = MathWars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imPlaying.MathWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +636,7 @@
 				E2CDCF2B1E34797100B8E084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2CDCF2C1E34797100B8E084 /* Build configuration list for PBXNativeTarget "MathWarsTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +645,7 @@
 				E2CDCF2E1E34797100B8E084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2CDCF2F1E34797100B8E084 /* Build configuration list for PBXNativeTarget "MathWarsUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +654,7 @@
 				E2CDCF311E34797100B8E084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
