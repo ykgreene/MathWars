@@ -13,6 +13,11 @@ class ViewController: UIViewController {
 
     //Variables
     var playerName = ["Cesar", "Juan", "Nayely", "Clarissa", "James", "Jonathan", "Keishawn", "LaKeith", "Luis", "Miguel", "Vivika", "PreJean", "Alexandria R", "Andrew", "Annadalay", "Claribel", "Jorge", "Julio", "Leslie", "Lizbeth", "Desiree", "Eu'Kari", "Jesus", "Tamia", "Anthony", "Janely", "Maurice"]
+
+    var count: UInt32 = 27
+    
+    var alreadyRandomed=NSMutableArray()
+    
     var seconds = 180
     var timer = Timer()
     var SoundPlayer1:AVAudioPlayer = AVAudioPlayer()
@@ -29,18 +34,57 @@ class ViewController: UIViewController {
     @IBOutlet weak var stopBtn: UIButton!
     @IBOutlet weak var sliderCtrl: UISlider!
     
+    func generateUnUsedRandomNumber1()->Int
+    {
+        var player1=Int(arc4random_uniform(count))
+        
+        if(alreadyRandomed.count==27)
+        {
+            alreadyRandomed.removeAllObjects()
+        }
+        
+        if alreadyRandomed.contains(player1)
+        {
+            player1=generateUnUsedRandomNumber1()
+        }
+        else
+        {
+            alreadyRandomed.add(player1)
+        }
+        
+        return player1
+    }
+    
+    func generateUnUsedRandomNumber2()->Int
+    {
+        var player2=Int(arc4random_uniform(count))
+        
+        if(alreadyRandomed.count==27)
+        {
+            alreadyRandomed.removeAllObjects()
+        }
+        
+        if alreadyRandomed.contains(player2)
+        {
+            player2=generateUnUsedRandomNumber2()
+        }
+        else
+        {
+            alreadyRandomed.add(player2)
+        }
+        
+        return player2
+    }
+    
     //IBActions
     @IBAction func player1BTNpressed(_ sender: Any) {
-        print("player 1")
         
         //Randomize player from 0 to 26
-        let player1 = Int(arc4random_uniform(26))
+        let player1 = generateUnUsedRandomNumber1()
+        print ("player 1", playerName[player1])
         
         // Change Button Title Text
         player1BTN.setTitle((playerName[player1]), for: UIControlState.normal)
-        
-        // Change Button Image with array
-        //player1BTN.setImage(UIImage(named: playerName[player1]), for: UIControlState.normal)
         
         // Ensure that text will fit in button
         player1BTN.titleLabel?.minimumScaleFactor = 0.5
@@ -49,20 +93,18 @@ class ViewController: UIViewController {
         
         //Play Audio
         SoundPlayer2.play()
-        
     }
     
+    
+    
     @IBAction func player2BTNpressed(_ sender: Any) {
-        print ("player 2")
         
         //Randomize player from 0 to 26
-        let player2 = Int(arc4random_uniform(26))
+        let player2 = generateUnUsedRandomNumber2()
+        print ("player 2", playerName[player2])
         
         // Change Button Title Text
         player2BTN.setTitle((playerName[player2]), for: UIControlState.normal)
-        
-        // Change Button Image with array
-        //player2BTN.setImage(UIImage(named: playerName[player2]), for: UIControlState.normal)
         
         // Ensure that text will fit in button
         player2BTN.titleLabel?.minimumScaleFactor = 0.5
@@ -71,9 +113,8 @@ class ViewController: UIViewController {
         
         //Play Audio
         SoundPlayer2.play()
-        
     }
-
+    
     @IBAction func startBtnTapped(_ sender: Any) {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.counter), userInfo: nil, repeats: true)
         
@@ -83,7 +124,7 @@ class ViewController: UIViewController {
         startBtn.isHidden = true
         sliderCtrl.isHidden = true
         stopBtn.isHidden = false
-
+        
     }
     
     @IBAction func stopBtnTapped(_ sender: Any) {
@@ -125,14 +166,13 @@ class ViewController: UIViewController {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryAmbient)
             try AVAudioSession.sharedInstance().setActive(true)
         }
-        
+            
         catch {
             print(error)
         }
     }
-
+    
     //Functions and Methods
-    //Timer
     func counter(){
         seconds -= 1
         timerLbl.text = String(seconds)
@@ -147,7 +187,6 @@ class ViewController: UIViewController {
             
             //Play Audio
             SoundPlayer1.play()
-
         }
         
         // 10 seconds left tone
@@ -155,13 +194,13 @@ class ViewController: UIViewController {
             
             SoundPlayer5.play()
         }
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
-
